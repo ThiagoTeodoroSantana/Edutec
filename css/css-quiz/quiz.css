@@ -47,6 +47,7 @@ header {
 h1 {
   font-size: 28px;
   margin: 0;
+  color: #fff;
 }
 
 main {
@@ -104,8 +105,12 @@ main {
   padding: 10px;
   border: 0;
   border-radius: 40px;
-  background-color: #0077b6;
+  background-color: #0058cc;
   color: #fff;
+}
+
+#play-again-button:hover {
+  background-color: #003cb3;
 }
 
 #play-button {
