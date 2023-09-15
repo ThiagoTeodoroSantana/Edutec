@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css-quiz/quiz.css">
+    <script src="../java/quiz.js" defer></script>
+    <title>Quiz de Geomorfologia e Topografia</title>
+</head>
+<body>
+    <div class="voltar">
+      <a href="../html/inicio-logado.html">
+        <img src="../images/./logo_geotec.png" class="voltar">
+      </a>
+    </div>
+    <div class="container">
+      <fieldset>
+        <header>
+            <h1>GEOQUIZ</h1>
+        </header>
+        <main>
+            <div id="question-container" class="question-container">
+                <p id="question"></p>
+                <div id="choices" class="btn-container"></div>
+            </div>
+            <div id="result-container" class= "result-container">
+                <p id="result"></p>
+                <button id="next-button" class="btn" onclick="nextQuestion()">Próxima Pergunta</button>
+            </div>
+            <button id="play-button" class="btn" onclick="startGame()">Jogar</button>
+            <button id="play-again-button" onclick="restartGame()" style="cursor: pointer;">Jogar Novamente</button>
+            <p id="correct-answers">Respostas Corretas: <span id="correct-answers-count">0</span></p>
+        </main>
+        <footer>
+            <p id="score">Pontuação: <span id="score-value">0</span></p>
+        </footer>
+      </fieldset>
+    </div>
+
+</body>
+</html>

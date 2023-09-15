@@ -1,0 +1,193 @@
+.barra-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #006eff;
+  background-image: linear-gradient(to right, #0058cc, #2e84f5);
+  z-index: 3;
+}
+
+.logo {
+  margin-left: 3rem;
+  width: 12.6rem;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  width: 13rem
+}
+
+.elementos-direita {
+  position: fixed;
+  top: 20;
+  right: 20;
+}
+
+.estudo {
+  margin-left: 52.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.estudo:hover {
+  width: 2.5rem;
+}
+
+.logo-game {
+  width: 2.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  transition: 0.5s;
+}
+
+.logo-game:hover {
+  width: 2.8rem;
+}
+
+.usuario {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.usuario:hover {
+  width: 2.5rem;
+}
+
+.sobre-nos {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2rem;
+  transition: 0.5s;
+}
+
+.sobre-nos:hover {
+  width: 2.2rem;
+}
+
+.barra-lateral {
+  margin-top: 4rem;
+  position: fixed;
+  left: 0;
+  width: 16rem;
+  height: 100%;
+  background-color: #223691;
+  padding: 0.75rem;
+  padding-top: 1rem;
+  z-index: 2;
+  background-image: linear-gradient(to bottom, #22389b, #0c1745);
+}
+
+.scroll {
+  overflow-y: auto;
+  height: 80%;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #1d2a6d;
+  border-radius: 0.5rem;
+}
+
+.Topografia {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.Topografia:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.Geomorfologia {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.Geomorfologia:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+}
+
+.Relevos {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.Relevos:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.placas-tectonicas {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.placas-tectonicas:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.videoaulas {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.videoaulas:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.textos-1 {
+  display: flex;
+  margin-bottom: 3rem;
+  margin-left: 52.5%;
+  width: 50rem;
+}
+
+.textos-1 p {
+  width: 25rem;
+}
+
+.textos-1 img {
+  width: 22.5rem;
+  height: 22.5rem;
+  margin-left: 1.5rem;
+}
+
+.titulo-1 {
+  width: 58rem;
+}
+
+.oque-e h2 {
+  margin-left: 62.5%;
+  margin-bottom: 0.5rem;
+}

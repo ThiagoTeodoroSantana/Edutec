@@ -1,0 +1,26 @@
+.logo {
+  padding-left: 1rem;
+}
+
+.conectar {
+  margin-left: 7.5rem;
+  color: white;
+  background-color: var(--dark-blue);
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right:4rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sem-logar {
+  margin-left: 4rem;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right:4rem;
+  border-radius: 1rem;
+  background-color: var(--dark-blue);
+  justify-content: center;
+  align-items: center;
+}

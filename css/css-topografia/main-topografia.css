@@ -1,0 +1,284 @@
+.barra-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4.5rem;
+  width: 100%;
+  background-color: #006eff;
+  background-image: linear-gradient(to right, #0058cc, #2e84f5);
+  z-index: 3;
+}
+
+.logo {
+  margin-left: 3rem;
+  width: 12.6rem;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  width: 13rem
+}
+
+.elementos-direita {
+  position: absolute;
+  top: 20;
+  right: 20;
+}
+
+.estudo {
+  margin-left: 52.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.estudo:hover {
+  width: 2.5rem;
+}
+
+.logo-game {
+  width: 2.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  transition: 0.5s;
+}
+
+.logo-game:hover {
+  width: 2.8rem;
+}
+
+.usuario {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.usuario:hover {
+  width: 2.5rem;
+}
+
+.sobre-nos {
+  margin-bottom: 0.8rem;
+  width: 2rem;
+  transition: 0.5s;
+  margin-right: 1.5rem;
+}
+
+.sobre-nos:hover {
+  width: 2.2rem;
+}
+
+.barra-lateral {
+  margin-top: 4rem;
+  position: fixed;
+  left: 0;
+  width: 16rem;
+  height: 100%;
+  background-color: #223691;
+  padding: 0.75rem;
+  padding-top: 1rem;
+  z-index: 2;
+  background-image: linear-gradient(to bottom, #22389b, #0c1745);
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 80%;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #1d2a6d;
+  border-radius: 0.5rem;
+}
+
+.Topografia {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.Topografia:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+}
+
+.Geomorfologia {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.Geomorfologia:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.Relevos {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.Relevos:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.placas-tectonicas {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.placas-tectonicas:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.videoaulas {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+  opacity: 75%;
+}
+
+.videoaulas:hover {
+  color: var(--white);
+  font-size: 1.65rem;
+  opacity: 90%;
+}
+
+.textos-1 {
+  display: flex;
+  margin-bottom: 3rem;
+  margin-left: 55%;
+}
+
+.textos-1 p {
+  width: 22.5rem;
+  margin-right: 2rem;
+}
+
+.textos-1 img {
+  width: 22.5rem;
+  height: 22.5rem;
+
+  margin-left: 0.25rem;
+}
+
+.titulo-1 {
+  width: 56.75rem;
+}
+
+.oque-e h2 {
+  margin-left: 60%;
+  margin-bottom: 0.5rem;
+  width: 10rem;
+}
+
+.levantamento-topografico h2 {
+  margin-bottom: 2rem;
+  width: 24rem;
+}
+
+.textos-2 {
+  display: flex;
+  margin-left: 57.5%;
+}
+
+.textos-2 p {
+  width: 20rem;
+}
+
+.textos-2 img {
+  height: 20rem;
+  width: 20rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.titulo-2 {
+  width: 56.75rem;
+}
+
+.images-2 {
+  width: 20rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.textos-3 {
+  margin-bottom: 3rem;
+  display: flex;
+  margin-left: 46.5%;
+}
+
+.textos-3 p {
+  width: 22.5rem;
+  margin-right: 1.5rem;
+  margin-left: 4rem;
+}
+
+.textos-3 img {
+  width: 24rem;
+  height: 20rem;
+  margin-right: 5rem;
+}
+
+.titulo-3 {
+  margin-right: 2rem;
+  width: 27.5rem;
+}
+
+.ponto-topografico h2 {
+  margin-bottom: 0.8rem;
+  width: 30rem;
+}
+
+.ponto-topografico {
+  margin-top: 1.25rem;
+}
+
+.textos-4 {
+  display: flex;
+  margin-left: 55%;
+}
+
+.textos-4 p {
+  width: 20rem;
+}
+
+.textos-4 img {
+  width: 22.5rem;
+  height: 22.5rem;
+  margin-bottom: 5rem;
+  margin-right: 3.2rem;
+}
+
+.titulo-4 {
+  width: 20rem;
+  margin-right: 4rem;
+}
+
+.interpretando-mapas h2 {
+  margin-bottom: 0.8rem;
+}

@@ -1,0 +1,135 @@
+.barra-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4.5rem;
+  width: 100%;
+  background-color: #006eff;
+  z-index: 2;
+}
+
+.logo {
+  margin-left: 3rem;
+  width: 12.6rem;
+}
+
+.elementos-direita {
+  position: fixed;
+  top: 20;
+  right: 20;
+}
+
+.estudo {
+  margin-left: 52.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+}
+
+.logo-game {
+  width: 2.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+}
+
+.usuario {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+}
+
+.sobre-nos {
+  width: 2rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+}
+
+.opcoes {
+  padding-inline: 2rem;
+  width: 12.5rem;
+  margin-right: 4rem;
+}
+
+.imagem-perfil {
+  margin-left: 1.5rem;
+  width: 12.5rem;
+  margin-top: 7.5rem;
+}
+
+.jogar {
+  font-weight: 700;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--strong-blue);
+}
+
+.alterar-info {
+  font-weight: 700;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #000;
+}
+
+.logout {
+  font-weight: 700;
+  margin-left: 1.5rem;
+  background-color: #ff0000;
+}
+
+.estatisticas-jogo {
+  width: 100%;
+  background-color: var(--light-cyan);
+  margin-top: 2.8rem;
+  display: flex;
+  height: 100%;
+}
+
+.estatisticas-jogo h2 {
+  color: var(--strong-blue);
+}
+
+.estatisticas-jogo p {
+  color: #000;
+}
+
+.primeira {
+  margin-right: 15rem;
+}
+
+.vitorias-gerais {
+  padding-top: 5rem;
+  height: 12.5rem;
+  background-color: var(--light-cyan);
+}
+
+.vitorias-gerais h2 {
+  margin-left: 7.5rem;
+}
+
+.vitorias-gerais p {
+  margin-left: 9rem;
+}
+
+.palavras-termo {
+  height: 12.5rem;
+  background-color: var(--light-cyan);
+}
+
+.palavras-termo p {
+  margin-left: 5rem;
+}
+
+.facil {
+  height: 10rem;
+  background-color: var(--light-cyan);
+}
+
+.medio {
+  height: 10rem;
+  background-color: var(--light-cyan);
+}
+
+.dificil {
+  height: 10rem;
+  background-color: var(--light-cyan);
+}

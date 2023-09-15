@@ -1,0 +1,47 @@
+.primeira {
+  margin-top: 2.5rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.segunda {
+  display: flex;
+  width: 25rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.voltar {
+  text-decoration: none;
+  color: var(--white);
+  margin-left: 2.5rem;
+}
+
+.thiago-teodoro img {
+  width: 7.5rem;
+  margin-right: 5rem;
+}
+
+.gustavo-teodoro img {
+  margin-right: 5rem;
+  width: 7.5rem;
+}
+
+.gabriel-pereira img {
+  width: 7.5rem;
+  margin-right: 5rem;
+}
+
+.gabriel-pereira p {
+  margin-left: 0.4rem;
+}
+
+.mateus-melo img {
+  width: 7.5rem;
+}
+
+.mateus-melo p {
+  margin-left: 0.9rem;
+}

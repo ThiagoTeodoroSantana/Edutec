@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: Inter, Bold;
+}
+
+body {
+  background-image: url(/images/Fundo-Tela-de-Inicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border: 4px solid darkblue;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: var(--strong-blue);
+  border-radius: 1rem;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  font-size:0.67rem;
+  margin-left: 0.5rem
+}
+
+input {
+  border-radius: 1rem;
+  margin-bottom: 0.8rem;
+  padding: 6px;
+}
