@@ -73,9 +73,6 @@ const questions = [
 let currentQuestion = 0;
 let score = 0;
 
-
-
-
 function displayQuestion() {
     const questionElement = document.getElementById("question");
     const choicesElement = document.getElementById("choices");

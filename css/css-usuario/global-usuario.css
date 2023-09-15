@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  background-color: var(--strong-blue);
+  background-color: var(--light-cyan);
 }
 
 main {

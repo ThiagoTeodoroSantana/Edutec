@@ -12,6 +12,8 @@ p {
 body {
   background-color: #e6f7ff;
   background-image: linear-gradient(to right, #8bb0c1, #738AFE, #6b619e);
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -27,7 +29,7 @@ fieldset{
 
 .container {
   background-image: linear-gradient(to right, #22389b, #0c1745);
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 600px;
@@ -122,4 +124,5 @@ main {
 .voltar {
   width: 15rem;
   margin-left: 1.25rem;
+  margin-top: 0.5rem;
 }
