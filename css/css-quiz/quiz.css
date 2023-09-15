@@ -5,7 +5,7 @@
 }
 
 p {
-  color:#000000;
+  color:#fff;
   font-weight: 2rem;
 }
 
@@ -15,26 +15,30 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 fieldset{
-  color: #738AFE;
+  color: #000000;
   border-radius: 5px;
+  border:1.5px solid #009dff;
+  padding-top: 1.25rem;
 }
 
 .container {
-  background-color: #f0f0ff;
+  background-image: linear-gradient(to right, #22389b, #0c1745);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 600px;
-  margin: 100px auto;
+  margin: 45px auto;
   display: flex;
   flex-direction: column;
+  border: 3px solid #009dff;
 }
 
 header {
-  background-color: #0077b6;
+  background-image: linear-gradient(to right, #2e5ff5, #0058cc);
   color: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -65,7 +69,7 @@ main {
 }
 
 .btn {
-  background-color: #0077b6;
+  background-color: #0058cc;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -76,7 +80,7 @@ main {
 }
 
 .btn:hover {
-  background-color: #005f91;
+  background-color: #003cb3;
 }
 
 #score {
@@ -107,6 +111,7 @@ main {
 #play-button {
   margin-top: 5px;
   border-radius: 40px;
+  border: 3px solid var(--strong-blue)
 }
 
 .voltar {
