@@ -65,6 +65,7 @@ main {
   display: none;
 }
 
+
 .btn-container {
   display: flex;
   flex-direction: column;
@@ -85,6 +86,8 @@ main {
 
 .btn:hover {
   background-color: #003cb3;
+  transform: scale(1.05);
+  transition: .6s;
 }
 
 #score {
@@ -120,6 +123,8 @@ main {
 
 #play-again-button:hover {
   background-color: #003cb3;
+  transform: scale(1.05);
+  transition: .6s;
 }
 
 #play-button {

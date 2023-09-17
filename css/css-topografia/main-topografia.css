@@ -2,7 +2,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 4.5rem;
   width: 100%;
   background-color: #006eff;
   background-image: linear-gradient(to right, #0058cc, #2e84f5);
@@ -16,11 +15,11 @@
 }
 
 .logo:hover {
-  width: 13rem
+  transform: scale(1.05);
 }
 
 .elementos-direita {
-  position: absolute;
+  position: fixed;
   top: 20;
   right: 20;
 }
@@ -34,7 +33,7 @@
 }
 
 .estudo:hover {
-  width: 2.5rem;
+  transform: scale(1.4);
 }
 
 .logo-game {
@@ -45,7 +44,7 @@
 }
 
 .logo-game:hover {
-  width: 2.8rem;
+  transform: scale(1.4);
 }
 
 .usuario {
@@ -56,18 +55,18 @@
 }
 
 .usuario:hover {
-  width: 2.5rem;
+  transform: scale(1.4);
 }
 
 .sobre-nos {
   margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
   width: 2rem;
   transition: 0.5s;
-  margin-right: 1.5rem;
 }
 
 .sobre-nos:hover {
-  width: 2.2rem;
+  transform: scale(1.4);
 }
 
 .barra-lateral {

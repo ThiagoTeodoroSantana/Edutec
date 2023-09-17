@@ -15,7 +15,7 @@
 }
 
 .logo:hover {
-  width: 13rem
+  transform: scale(1.05);
 }
 
 .elementos-direita {
@@ -33,7 +33,7 @@
 }
 
 .estudo:hover {
-  width: 2.5rem;
+  transform: scale(1.4);
 }
 
 .logo-game {
@@ -44,7 +44,7 @@
 }
 
 .logo-game:hover {
-  width: 2.8rem;
+  transform: scale(1.4);
 }
 
 .usuario {
@@ -55,7 +55,7 @@
 }
 
 .usuario:hover {
-  width: 2.5rem;
+  transform: scale(1.4);
 }
 
 .sobre-nos {
@@ -66,7 +66,7 @@
 }
 
 .sobre-nos:hover {
-  width: 2.2rem;
+  transform: scale(1.4);
 }
 
 .barra-lateral {
