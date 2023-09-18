@@ -5,6 +5,7 @@
   padding-right:2rem;
   border-radius: 1rem;
   background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
 }
 
 .jogar {
@@ -14,6 +15,7 @@
   padding-right:2rem;
   border-radius: 1rem;
   background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
 }
 
 .sobre-nos {
@@ -22,4 +24,5 @@
   padding-right:2rem;
   border-radius: 1rem;
   background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
 }

@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(/images/Fundo-Tela-de-Inicio.png);
+  background: #0058cc;
+  background-image: linear-gradient(to right, #0058cc, #2ecdf5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -49,6 +50,7 @@ form {
   background: #22389b;
   background-image: linear-gradient(to right, #0c1745, #22389b);
   padding: 1.5rem;
+  padding-inline: 2.5rem;
   border-radius: 0.5rem;
   border: 2px solid  #00aaff;
 }

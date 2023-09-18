@@ -5,6 +5,7 @@
   height: 4.5rem;
   width: 100%;
   background-color: #006eff;
+  background-image: linear-gradient(to right, #0058cc, #2e84f5);
   z-index: 2;
 }
 

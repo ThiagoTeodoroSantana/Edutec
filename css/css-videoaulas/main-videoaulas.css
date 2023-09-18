@@ -68,3 +68,53 @@
 .sobre-nos:hover {
   transform: scale(1.4);
 }
+
+#videos {
+  width: 20rem;
+}
+
+.topo {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.topo a {
+  color: #10008a;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+
+.cima {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.cima img {
+  margin-left: 1.5rem;
+}
+
+.baixo {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.baixo img {
+  margin-left: 1.5rem;
+}
+
+.topografia h2 {
+  margin-left: 18rem;
+}
+
+.geomorfologia h2 {
+  margin-left: 5.5rem;
+}
+
+.placas-tectonicas h2 {
+  margin-left: 15.5rem;
+}
+
+.relevos h2 {
+  margin-left: 8.25rem;
+}

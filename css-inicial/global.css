@@ -21,6 +21,11 @@ ul {
 
 li {
   margin-bottom: 2rem;
+  transition: 0.5s;
+}
+
+li:hover {
+transform: scale(1.05);
 }
 
 p {

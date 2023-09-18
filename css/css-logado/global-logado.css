@@ -26,6 +26,7 @@ p {
 }
 
 ul {
+  margin-left: 4%;
   display: flex;
   list-style-type: none;
   padding-right: 1rem;
@@ -36,4 +37,12 @@ a {
   font-family: Inter;
   font-weight: 700;
   color: var(--white);
+}
+
+li {
+  transition: 0.5s;
+}
+
+li:hover {
+transform: scale(1.1);
 }

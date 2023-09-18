@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+.logar:hover {
+  background: #253aa7;
+}
+
 .criar-conta {
   margin-left: 0.5rem;
 }

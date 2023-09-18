@@ -5,43 +5,44 @@
   justify-content: center;
 }
 
-.segunda {
-  display: flex;
-  width: 25rem;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: center;
-}
-
 .voltar {
   text-decoration: none;
   color: var(--white);
-  margin-left: 2.5rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
 }
 
 .thiago-teodoro img {
-  width: 7.5rem;
+  width: 10rem;
   margin-right: 5rem;
+}
+
+.thiago-teodoro p {
+  margin-left: 1rem;
 }
 
 .gustavo-teodoro img {
   margin-right: 5rem;
-  width: 7.5rem;
+  width: 10rem;
+}
+
+.gustavo-teodoro p {
+  margin-left: 1rem;
 }
 
 .gabriel-pereira img {
-  width: 7.5rem;
+  width: 10rem;
   margin-right: 5rem;
 }
 
 .gabriel-pereira p {
-  margin-left: 0.4rem;
+  margin-left: 1.5rem;
 }
 
 .mateus-melo img {
-  width: 7.5rem;
+  width: 10rem;
 }
 
 .mateus-melo p {
-  margin-left: 0.9rem;
+  margin-left: 1.8rem;
 }
