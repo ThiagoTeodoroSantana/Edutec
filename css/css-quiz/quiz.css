@@ -140,3 +140,8 @@ main {
   margin-left: 1.25rem;
   margin-top: 0.5rem;
 }
+
+.voltar:hover {
+  transform: scale(1.10);
+  transition: 0.5s;
+}

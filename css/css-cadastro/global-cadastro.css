@@ -22,7 +22,8 @@ main {
   padding-top: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  background-color: var(--strong-blue);
+  background-color: #006eff;
+  background-image: linear-gradient(to right, #0036b3, #2e84f5);
   border-radius: 1rem;
 }
 
@@ -42,4 +43,12 @@ input {
   border-radius: 1rem;
   margin-bottom: 0.8rem;
   padding: 6px;
+}
+
+form {
+  background: #22389b;
+  background-image: linear-gradient(to right, #0c1745, #22389b);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid  #00aaff;
 }

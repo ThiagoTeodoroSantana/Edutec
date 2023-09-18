@@ -1,0 +1,70 @@
+.barra-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #006eff;
+  background-image: linear-gradient(to right, #0058cc, #2e84f5);
+  z-index: 3;
+}
+
+.logo {
+  margin-left: 3rem;
+  width: 12.6rem;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.elementos-direita {
+  position: fixed;
+  top: 20;
+  right: 20;
+}
+
+.estudo {
+  margin-left: 52.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.estudo:hover {
+  transform: scale(1.4);
+}
+
+.logo-game {
+  width: 2.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  transition: 0.5s;
+}
+
+.logo-game:hover {
+  transform: scale(1.4);
+}
+
+.usuario {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2.25rem;
+  transition: 0.5s;
+}
+
+.usuario:hover {
+  transform: scale(1.4);
+}
+
+.sobre-nos {
+  margin-bottom: 0.8rem;
+  margin-right: 1.5rem;
+  width: 2rem;
+  transition: 0.5s;
+}
+
+.sobre-nos:hover {
+  transform: scale(1.4);
+}

@@ -9,24 +9,24 @@ body {
   background-image: linear-gradient(to right, #0058cc, #2ecdf5);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 } 
 
-li {
-  margin-bottom: 2rem;
-}
-
 ul {
   list-style-type: none;
 }
 
+li {
+  margin-bottom: 2rem;
+}
+
 p {
-  margin-top: 2rem;
+  margin-top: 0.25rem;
   margin-bottom: 4rem;
-  margin-left: 11rem;
+  margin-left: 30%;
   color: white;
   font-weight: 600;
 }

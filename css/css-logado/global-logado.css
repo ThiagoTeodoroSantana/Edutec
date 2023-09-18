@@ -6,7 +6,8 @@
 
 body {
   height: 100vh;
-  background-image: url(/images/Fundo-Tela-de-Inicio.png);
+  background: #0058cc;
+  background-image: linear-gradient(to right, #0058cc, #2ecdf5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
