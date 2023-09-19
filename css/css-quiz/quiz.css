@@ -128,6 +128,28 @@ main {
   transition: .6s;
 }
 
+#voltar-inicio {
+  margin-top: 1rem;
+  padding: 10px;
+  border: 0;
+  border-radius: 40px;
+  background-color: #0058cc;
+  color: #fff;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#voltar-inicio a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#voltar-inicio:hover {
+  background-color: #003cb3;
+  transform: scale(1.01);
+  transition: .6s;
+}
+
 #play-button {
   margin-top: 5px;
   border-radius: 40px;

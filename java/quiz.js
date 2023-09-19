@@ -139,7 +139,9 @@ function endGame() {
         <p>Você completou o quiz.</p>
         <p>Sua pontuação final é: <span id="final-score">${score}</span></p>
         <button id="play-again-button" style="cursor: pointer;"><a href="./quiz.html">Jogar Novamente</a></button>
-    `;
+        <button id="voltar-inicio" style="cursor: pointer;"><a href="./inicio-logado.html">Voltar ao Site</a></button>
+        `;
+
 
   const playAgainButton = document.getElementById("play-again-button");
   // playAgainButton.addEventListener("click", restartGame);
