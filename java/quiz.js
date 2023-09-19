@@ -162,11 +162,11 @@ function startGame() {
   document.getElementById("question-container").style.display = "block";
   displayQuestion();
 }
-// function restartGame() {
-//     currentQuestion = 0;
-//     score = 0;
-//     document.getElementById("score-value").textContent = score;
-//     document.getElementById("play-again-button").style.display = "none";
-//     document.getElementById("question-container").style.display = "block";
-//     displayQuestion();
-// }
+function restartGame() {
+  currentQuestion = 0;
+  score = 0;
+  document.getElementById("score-value").textContent = score;
+  document.getElementById("play-again-button").style.display = "none";
+  document.getElementById("question-container").style.display = "block";
+  displayQuestion();
+}
